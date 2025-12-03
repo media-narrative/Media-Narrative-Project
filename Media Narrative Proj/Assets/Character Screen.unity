@@ -1162,7 +1162,19 @@ MonoBehaviour:
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 551892772}
+        m_TargetAssemblyTypeName: SelectHairColor, Assembly-CSharp
+        m_MethodName: updateSliders
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &315032293
 GameObject:
   m_ObjectHideFlags: 0
@@ -2114,6 +2126,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 551892771}
+  - component: {fileID: 551892772}
   m_Layer: 5
   m_Name: Hair Colors
   m_TagString: Untagged
@@ -2142,6 +2155,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &551892772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551892770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0434c1dedd0e7284d9cedf44c8e0f19c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redAmt: 0
+  greenAmt: 0
+  blueAmt: 0
+  alphaAmt: 0
+  green: {fileID: 2080611744}
+  red: {fileID: 1306950620}
+  blue: {fileID: 299304213}
+  rendersList: []
 --- !u!1 &554048373
 GameObject:
   m_ObjectHideFlags: 0
@@ -5705,7 +5738,19 @@ MonoBehaviour:
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 551892772}
+        m_TargetAssemblyTypeName: SelectHairColor, Assembly-CSharp
+        m_MethodName: updateSliders
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1351106305
 GameObject:
   m_ObjectHideFlags: 0
@@ -9477,7 +9522,19 @@ MonoBehaviour:
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 551892772}
+        m_TargetAssemblyTypeName: SelectHairColor, Assembly-CSharp
+        m_MethodName: updateSliders
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2086315752
 GameObject:
   m_ObjectHideFlags: 0
