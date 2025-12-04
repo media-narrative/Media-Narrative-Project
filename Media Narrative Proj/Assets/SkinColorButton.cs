@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ColorButton : MonoBehaviour
 {
-    public SelectHairColor selectHairColor;
+    public SelectSkinColor selectSkinColor;
     [Header("Color Values")]
     public float redAmt;
     public float greenAmt;
@@ -31,10 +31,10 @@ public class ColorButton : MonoBehaviour
         greenSlider.value = greenAmt;
         blueSlider.value = blueAmt;
 
-        selectHairColor.redAmt = redAmt;
-        selectHairColor.greenAmt = greenAmt;
-        selectHairColor.blueAmt = blueAmt;
+        selectSkinColor.redAmt = redAmt;
+        selectSkinColor.greenAmt = greenAmt;
+        selectSkinColor.blueAmt = blueAmt;
 
-        selectHairColor.SetHairColor();
+        selectSkinColor.SetSkinColor();
     }
 }
