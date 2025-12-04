@@ -127,6 +127,102 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5183091130800884454, guid: 70f7142411aebea4e881689cff6b8fe6, type: 3}
   m_PrefabInstance: {fileID: 1269190276}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &185972013
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5139117774659784386, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139117774659784386, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139117774659784386, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139117774659784386, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139117774659784386, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139117774659784386, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139117774659784386, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139117774659784386, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139117774659784386, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139117774659784386, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173447196956022366, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
+      propertyPath: m_Name
+      value: Player2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8173447196956022366, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 185972018}
+  m_SourcePrefab: {fileID: 100100000, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
+--- !u!1 &185972014 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8173447196956022366, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
+  m_PrefabInstance: {fileID: 185972013}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &185972015 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6931082712849249539, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
+  m_PrefabInstance: {fileID: 185972013}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &185972016 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7345228758445012476, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
+  m_PrefabInstance: {fileID: 185972013}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &185972017 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8930680499438425785, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
+  m_PrefabInstance: {fileID: 185972013}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &185972018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185972014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66614a7c69238f348b94ddd7865d9241, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skinrendersList:
+  - {fileID: 185972017}
+  - {fileID: 185972016}
+  - {fileID: 185972015}
 --- !u!4 &463505586 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5183091130800884454, guid: 70f7142411aebea4e881689cff6b8fe6, type: 3}
@@ -1107,3 +1203,4 @@ SceneRoots:
   - {fileID: 495301518}
   - {fileID: 1395088957}
   - {fileID: 801231916}
+  - {fileID: 185972013}

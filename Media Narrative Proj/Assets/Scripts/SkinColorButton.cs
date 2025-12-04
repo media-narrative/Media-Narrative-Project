@@ -25,7 +25,7 @@ public class ColorButton : MonoBehaviour
         blueAmt = colorImage.color.b;
     }
 
-    public void SetSliderValuesToImageColor()
+    public void SetSliderValuesToImageColorSkin()
     {
         redSlider.value = redAmt;
         greenSlider.value = greenAmt;
@@ -36,5 +36,17 @@ public class ColorButton : MonoBehaviour
         selectSkinColor.blueAmt = blueAmt;
 
         selectSkinColor.SetSkinColor();
+    }
+    public void SetSliderValuesToImageColorHair()
+    {
+        redSlider.value = redAmt;
+        greenSlider.value = greenAmt;
+        blueSlider.value = blueAmt;
+
+        selectSkinColor.redAmt = redAmt;
+        selectSkinColor.greenAmt = greenAmt;
+        selectSkinColor.blueAmt = blueAmt;
+
+        selectSkinColor.SetHairColor();
     }
 }

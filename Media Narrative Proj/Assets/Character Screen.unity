@@ -1052,7 +1052,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 151723685}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorSkin
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1068,7 +1068,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 151723685}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorSkin
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1144,7 +1144,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 151723685}
         m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-        m_MethodName: SetSliderValuesToImageColor
+        m_MethodName: SetSliderValuesToImageColorSkin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1262,7 +1262,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 119966248}
         m_TargetAssemblyTypeName: SelectSkinColor, Assembly-CSharp
-        m_MethodName: updateSliders
+        m_MethodName: updateSlidersSkin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1889,7 +1889,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 296633851}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorHair
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1905,7 +1905,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 296633851}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorHair
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1981,7 +1981,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 296633851}
         m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-        m_MethodName: SetSliderValuesToImageColor
+        m_MethodName: SetSliderValuesToImageColorHair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2120,8 +2120,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 551892772}
-        m_TargetAssemblyTypeName: SelectHairColor, Assembly-CSharp
-        m_MethodName: updateSliders
+        m_TargetAssemblyTypeName: SelectSkinColor, Assembly-CSharp
+        m_MethodName: updateSlidersHair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2191,7 +2191,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 314514659}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorSkin
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2207,7 +2207,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 314514659}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorSkin
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2283,7 +2283,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 314514659}
         m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-        m_MethodName: SetSliderValuesToImageColor
+        m_MethodName: SetSliderValuesToImageColorSkin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3389,7 +3389,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 464572260}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorHair
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3405,7 +3405,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 464572260}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorHair
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3481,7 +3481,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 464572260}
         m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-        m_MethodName: SetSliderValuesToImageColor
+        m_MethodName: SetSliderValuesToImageColorHair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5245,7 +5245,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 702120310}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorHair
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -5261,7 +5261,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 702120310}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorHair
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -5337,7 +5337,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 702120310}
         m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-        m_MethodName: SetSliderValuesToImageColor
+        m_MethodName: SetSliderValuesToImageColorHair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5526,7 +5526,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 715079576}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorSkin
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -5542,7 +5542,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 715079576}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorSkin
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -5618,7 +5618,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 715079576}
         m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-        m_MethodName: SetSliderValuesToImageColor
+        m_MethodName: SetSliderValuesToImageColorSkin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6343,6 +6343,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846555272}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &859966518 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8173447196956022366, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
+  m_PrefabInstance: {fileID: 868926583}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &868926583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6442,7 +6447,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8173447196956022366, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1174639158}
   m_SourcePrefab: {fileID: 100100000, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
 --- !u!1 &884873697
 GameObject:
@@ -6540,7 +6548,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 893564691}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorSkin
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -6556,7 +6564,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 893564691}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorSkin
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -6632,7 +6640,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 893564691}
         m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-        m_MethodName: SetSliderValuesToImageColor
+        m_MethodName: SetSliderValuesToImageColorSkin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8055,7 +8063,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1116067704}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorHair
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -8071,7 +8079,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1116067704}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorHair
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -8147,7 +8155,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1116067704}
         m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-        m_MethodName: SetSliderValuesToImageColor
+        m_MethodName: SetSliderValuesToImageColorHair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8560,7 +8568,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1158970102}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorSkin
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -8576,7 +8584,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1158970102}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorSkin
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -8652,7 +8660,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1158970102}
         m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-        m_MethodName: SetSliderValuesToImageColor
+        m_MethodName: SetSliderValuesToImageColorSkin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8777,6 +8785,31 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5139117774659784386, guid: 4987d82d3fed94d41b58bc81c3f02288, type: 3}
   m_PrefabInstance: {fileID: 868926583}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1174639158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859966518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d794c94dfa4d04398afefecc32e238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hairs:
+  - {fileID: 1915411876}
+  - {fileID: 1940986662}
+  - {fileID: 566472011}
+  - {fileID: 1344903418}
+  - {fileID: 1519088182}
+  faces:
+  - {fileID: 742110208}
+  - {fileID: 963017156}
+  - {fileID: 973105295}
+  - {fileID: 218648905}
+  - {fileID: 1868518122}
+  - {fileID: 1996403576}
 --- !u!1 &1176366139
 GameObject:
   m_ObjectHideFlags: 0
@@ -8837,7 +8870,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1176366142}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorSkin
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -8853,7 +8886,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1176366142}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorSkin
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -8929,7 +8962,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1176366142}
         m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-        m_MethodName: SetSliderValuesToImageColor
+        m_MethodName: SetSliderValuesToImageColorSkin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9202,6 +9235,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222400947}
   m_CullTransparentMesh: 1
+--- !u!1 &1230942270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1230942272}
+  - component: {fileID: 1230942271}
+  m_Layer: 0
+  m_Name: Character Data
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1230942271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230942270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a882286f76282e141bbcc6fe0b0cbd7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hairColor: {r: 1, g: 1, b: 1, a: 1}
+  skinColor: {r: 1, g: 1, b: 1, a: 1}
+  hairIndex: 0
+  faceIndex: 0
+--- !u!4 &1230942272
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230942270}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0018200874, y: 3.284525, z: 0.0006055832}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1239014271
 GameObject:
   m_ObjectHideFlags: 0
@@ -9412,7 +9493,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1248316184}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorHair
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -9428,7 +9509,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1248316184}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorHair
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -9504,7 +9585,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1248316184}
         m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-        m_MethodName: SetSliderValuesToImageColor
+        m_MethodName: SetSliderValuesToImageColorHair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9643,8 +9724,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 551892772}
-        m_TargetAssemblyTypeName: SelectHairColor, Assembly-CSharp
-        m_MethodName: updateSliders
+        m_TargetAssemblyTypeName: SelectSkinColor, Assembly-CSharp
+        m_MethodName: updateSlidersHair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14059,7 +14140,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 119966248}
         m_TargetAssemblyTypeName: SelectSkinColor, Assembly-CSharp
-        m_MethodName: updateSliders
+        m_MethodName: updateSlidersSkin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14386,7 +14467,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1838349144}
         m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-        m_MethodName: SetSliderValuesToImageColor
+        m_MethodName: SetSliderValuesToImageColorHair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14473,7 +14554,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1838349144}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorHair
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -14489,7 +14570,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1838349144}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorHair
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -14862,7 +14943,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1876630367}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorHair
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -14878,7 +14959,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1876630367}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorHair
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -14954,7 +15035,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1876630367}
         m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-        m_MethodName: SetSliderValuesToImageColor
+        m_MethodName: SetSliderValuesToImageColorHair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15641,7 +15722,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 119966248}
         m_TargetAssemblyTypeName: SelectSkinColor, Assembly-CSharp
-        m_MethodName: updateSliders
+        m_MethodName: updateSlidersSkin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15685,6 +15766,7 @@ GameObject:
   - component: {fileID: 2058175477}
   - component: {fileID: 2058175476}
   - component: {fileID: 2058175475}
+  - component: {fileID: 2058175479}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -15808,6 +15890,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2058175479}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadSpecificSceneByIndex
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2058175476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15866,6 +15960,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 230, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2058175479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058175474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c03467da770cb47b44c9baf72b38cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2061150411
 GameObject:
   m_ObjectHideFlags: 0
@@ -16049,8 +16155,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 551892772}
-        m_TargetAssemblyTypeName: SelectHairColor, Assembly-CSharp
-        m_MethodName: updateSliders
+        m_TargetAssemblyTypeName: SelectSkinColor, Assembly-CSharp
+        m_MethodName: updateSlidersHair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17414,7 +17520,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 2141747469}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorSkin
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -17430,7 +17536,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 2141747469}
           m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-          m_MethodName: SetSliderValuesToImageColor
+          m_MethodName: SetSliderValuesToImageColorSkin
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -17506,7 +17612,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2141747469}
         m_TargetAssemblyTypeName: ColorButton, Assembly-CSharp
-        m_MethodName: SetSliderValuesToImageColor
+        m_MethodName: SetSliderValuesToImageColorSkin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17563,3 +17669,4 @@ SceneRoots:
   - {fileID: 2119315055}
   - {fileID: 236828990}
   - {fileID: 1700818037}
+  - {fileID: 1230942272}
