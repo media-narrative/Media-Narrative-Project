@@ -21,7 +21,7 @@ public class SelectSkinColor : MonoBehaviour
 
     private Color curSkinColor;
 //grab material from skin mesh renderer for the Skin and change the color
-    public List<SkinnedMeshRenderer> rendersList = new List<SkinnedMeshRenderer>();
+    public List<Renderer> rendersList = new List<Renderer>();
     public void updateSliders()
     {
         greenAmt = green.value;
