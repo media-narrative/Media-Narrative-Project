@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UIElements.Experimental;
 
 namespace HarmonyDialogueSystem
 {
@@ -33,6 +34,9 @@ namespace HarmonyDialogueSystem
 
         [SerializeField] private TextAsset TXTFile;
 
+        [Header("If the player has already triggered this stop.")]
+        [SerializeField] private bool hasTriggered;
+
         private void Awake()
         {
             playerInRange = false;
@@ -59,19 +63,16 @@ namespace HarmonyDialogueSystem
 
         private void Update()
         {
-            if (playerInRange && InputManagerDialogue.isInteracting())
-            {
-                DialogueManager.instance.EnterDialogueMode(ReturnTextAsset(), fileTypeUsed);
-            }
         }
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.CompareTag(playerTag))
-            {
-                playerInRange = true;
-                TurnOnEnterEvents();
-            }
+            if (hasTriggered) return;
+            if (!other.CompareTag(playerTag)) return;
+
+            TurnOnEnterEvents();
+            DialogueManager.instance.EnterDialogueMode(ReturnTextAsset(), fileTypeUsed);
+            hasTriggered = true;
         }
 
         private void OnTriggerExit(Collider other)
