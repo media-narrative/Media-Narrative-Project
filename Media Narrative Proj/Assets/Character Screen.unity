@@ -547,10 +547,12 @@ MonoBehaviour:
   green: {fileID: 1788010183}
   red: {fileID: 2041490563}
   blue: {fileID: 168154008}
-  rendersList:
+  hairrendersList: []
+  skinrendersList:
   - {fileID: 1112539507}
-  - {fileID: 1380791336}
   - {fileID: 579244905}
+  - {fileID: 1380791336}
+  faces: []
 --- !u!1 &129652401
 GameObject:
   m_ObjectHideFlags: 0
@@ -2883,6 +2885,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 594511855}
+        m_TargetAssemblyTypeName: SelectSkinColor, Assembly-CSharp
+        m_MethodName: setHairstyle
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &370007124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3176,6 +3190,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 594511855}
+        m_TargetAssemblyTypeName: SelectSkinColor, Assembly-CSharp
+        m_MethodName: setHairstyle
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4079,12 +4105,14 @@ MonoBehaviour:
   green: {fileID: 2080611744}
   red: {fileID: 1306950620}
   blue: {fileID: 299304213}
-  rendersList:
+  hairrendersList:
   - {fileID: 1915411878}
   - {fileID: 1940986664}
   - {fileID: 566472013}
   - {fileID: 1344903420}
   - {fileID: 1519088184}
+  skinrendersList: []
+  faces: []
 --- !u!1 &554048373
 GameObject:
   m_ObjectHideFlags: 0
@@ -4568,6 +4596,7 @@ GameObject:
   m_Component:
   - component: {fileID: 585198955}
   - component: {fileID: 585198956}
+  - component: {fileID: 585198957}
   m_Layer: 5
   m_Name: Faces
   m_TagString: Untagged
@@ -4608,6 +4637,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentGameObject: {fileID: 1677081303}
+--- !u!114 &585198957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585198954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ff0a2378ee146d4fb9cafaca957964f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redAmt: 0
+  greenAmt: 0
+  blueAmt: 0
+  alphaAmt: 0
+  green: {fileID: 0}
+  red: {fileID: 0}
+  blue: {fileID: 0}
+  hairrendersList: []
+  skinrendersList: []
+  faces:
+  - {fileID: 760238138}
+  - {fileID: 1824259358}
+  - {fileID: 1622478179}
+  - {fileID: 1626945429}
+  - {fileID: 1042406170}
+  - {fileID: 1546431770}
 --- !u!1 &589827638
 GameObject:
   m_ObjectHideFlags: 0
@@ -4693,6 +4750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 594511853}
   - component: {fileID: 594511854}
+  - component: {fileID: 594511855}
   m_Layer: 5
   m_Name: Hairstyles
   m_TagString: Untagged
@@ -4733,6 +4791,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentGameObject: {fileID: 1851290963}
+--- !u!114 &594511855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594511852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ff0a2378ee146d4fb9cafaca957964f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redAmt: 0
+  greenAmt: 0
+  blueAmt: 0
+  alphaAmt: 0
+  green: {fileID: 0}
+  red: {fileID: 0}
+  blue: {fileID: 0}
+  hairrendersList:
+  - {fileID: 1915411878}
+  - {fileID: 1940986664}
+  - {fileID: 566472013}
+  - {fileID: 1344903420}
+  - {fileID: 1519088184}
+  skinrendersList: []
+  faces: []
 --- !u!1 &596582373
 GameObject:
   m_ObjectHideFlags: 0
@@ -5984,6 +6069,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 585198957}
+        m_TargetAssemblyTypeName: SelectSkinColor, Assembly-CSharp
+        m_MethodName: setFace
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -7387,6 +7484,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 594511855}
+        m_TargetAssemblyTypeName: SelectSkinColor, Assembly-CSharp
+        m_MethodName: setHairstyle
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1010978281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7960,6 +8069,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 585198957}
+        m_TargetAssemblyTypeName: SelectSkinColor, Assembly-CSharp
+        m_MethodName: setFace
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1042406173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8462,6 +8583,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 594511855}
+        m_TargetAssemblyTypeName: SelectSkinColor, Assembly-CSharp
+        m_MethodName: setHairstyle
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -9297,9 +9430,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hairs:
-  - {fileID: 0}
-  - {fileID: 0}
-  faces: []
+  - {fileID: 1915411876}
+  - {fileID: 1940986662}
+  - {fileID: 566472011}
+  - {fileID: 1344903418}
+  - {fileID: 1519088182}
+  faces:
+  - {fileID: 742110208}
+  - {fileID: 963017156}
+  - {fileID: 973105295}
+  - {fileID: 218648905}
+  - {fileID: 1868518122}
+  - {fileID: 1996403576}
 --- !u!1 &1239014271
 GameObject:
   m_ObjectHideFlags: 0
@@ -12313,6 +12455,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 585198957}
+        m_TargetAssemblyTypeName: SelectSkinColor, Assembly-CSharp
+        m_MethodName: setFace
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1546431773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13028,6 +13182,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 585198957}
+        m_TargetAssemblyTypeName: SelectSkinColor, Assembly-CSharp
+        m_MethodName: setFace
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1622478182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13092,7 +13258,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1626945429}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13103,7 +13269,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 420, y: -429}
+  m_AnchoredPosition: {x: 419.9999, y: -429.00003}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1626945431
@@ -13254,6 +13420,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 585198957}
+        m_TargetAssemblyTypeName: SelectSkinColor, Assembly-CSharp
+        m_MethodName: setFace
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -14359,6 +14537,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 585198957}
+        m_TargetAssemblyTypeName: SelectSkinColor, Assembly-CSharp
+        m_MethodName: setFace
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1824259361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14853,6 +15043,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 594511855}
+        m_TargetAssemblyTypeName: SelectSkinColor, Assembly-CSharp
+        m_MethodName: setHairstyle
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: -1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
@@ -16639,6 +16841,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 594511855}
+        m_TargetAssemblyTypeName: SelectSkinColor, Assembly-CSharp
+        m_MethodName: setHairstyle
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
