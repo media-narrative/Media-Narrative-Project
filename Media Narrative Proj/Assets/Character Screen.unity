@@ -9245,6 +9245,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1230942272}
   - component: {fileID: 1230942271}
+  - component: {fileID: 1230942273}
   m_Layer: 0
   m_Name: Character Data
   m_TagString: Untagged
@@ -9266,7 +9267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hairColor: {r: 1, g: 1, b: 1, a: 1}
   skinColor: {r: 1, g: 1, b: 1, a: 1}
-  hairIndex: 0
+  hairIndex: -1
   faceIndex: 0
 --- !u!4 &1230942272
 Transform:
@@ -9283,6 +9284,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1230942273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230942270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d794c94dfa4d04398afefecc32e238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hairs:
+  - {fileID: 0}
+  - {fileID: 0}
+  faces: []
 --- !u!1 &1239014271
 GameObject:
   m_ObjectHideFlags: 0

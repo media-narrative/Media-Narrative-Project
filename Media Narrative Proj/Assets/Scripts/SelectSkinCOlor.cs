@@ -18,10 +18,13 @@ public class SelectSkinColor : MonoBehaviour
     public Slider green;
     public Slider red;
     public Slider blue;
+    public List<Renderer> hairrendersList = new List<Renderer>();
+    public List<Renderer> skinrendersList = new List<Renderer>();
+    public List<GameObject> faces = new List<GameObject>();
 
     private Color curColor;
 //grab material from skin mesh renderer for the Skin and change the color
-    public List<Renderer> rendersList = new List<Renderer>();
+    
     public void updateSlidersSkin()
     {
         greenAmt = green.value;
@@ -39,9 +42,9 @@ public class SelectSkinColor : MonoBehaviour
     public void SetSkinColor(){
         curColor = new Color (redAmt, greenAmt, blueAmt); //could include alphanum too
     
-        for(int i=0; i < rendersList.Count; i++)
+        for(int i=0; i < skinrendersList.Count; i++)
         {
-            rendersList[i].material.color=curColor;// double check if this arg is right
+            skinrendersList[i].material.color=curColor;// double check if this arg is right
         }
 
         CharacterData.Instance.skinColor = curColor;
@@ -49,11 +52,26 @@ public class SelectSkinColor : MonoBehaviour
     public void SetHairColor(){
         curColor = new Color (redAmt, greenAmt, blueAmt); //could include alphanum too
     
-        for(int i=0; i < rendersList.Count; i++)
+        for(int i=0; i < hairrendersList.Count; i++)
         {
-            rendersList[i].material.color=curColor;// double check if this arg is right
+            hairrendersList[i].material.color=curColor;// double check if this arg is right
         }
 
         CharacterData.Instance.hairColor = curColor;
+    }
+    public void setHairstyle(int index)
+    {
+        if (index < hairrendersList.Count && index > -2)
+        {
+            CharacterData.Instance.hairIndex = index;
+        }
+    }
+
+    public void setFace(int index)
+    {
+        if (index < faces.Count && index > -2)
+        {
+            CharacterData.Instance.faceIndex = index;
+        }
     }
 }

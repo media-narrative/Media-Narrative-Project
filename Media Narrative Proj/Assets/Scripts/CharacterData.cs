@@ -8,8 +8,8 @@ public class CharacterData : MonoBehaviour
 
     // Add your customization fields here
     public Color hairColor = Color.white;
-    public Color skinColor = Color.white;
-    public int hairIndex = 0;
+    public Color skinColor = Color.green;
+    public int hairIndex = -1;
     public int faceIndex = 0;
 
     private void Awake()
